@@ -138,7 +138,7 @@ export default function Index() {
 
       <section className="py-12 bg-secondary/30">
         <div className="container mx-auto px-4">
-          <div className="flex flex-wrap gap-3 justify-center">
+          <div className="flex flex-wrap gap-3 justify-center mb-8">
             {categories.map((category) => (
               <Button
                 key={category}
@@ -149,6 +149,9 @@ export default function Index() {
                 {category}
               </Button>
             ))}
+          </div>
+          <div className="text-center text-lg font-medium text-foreground">
+            ИМЯ-Вика. МЕСТОИМЕНИЯ-она её. ВОЗРАСТ-10лет. ФД-роблокс, валорант, пони таун
           </div>
         </div>
       </section>
