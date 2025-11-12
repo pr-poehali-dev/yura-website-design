@@ -111,10 +111,9 @@ export default function Index() {
                 <Icon name="User" size={80} className="text-primary" />
               </div>
               <div className="flex-1 text-center md:text-left">
-                <h2 className="text-4xl font-serif font-bold mb-4">Анна Иванова</h2>
+                <h2 className="text-4xl font-serif font-bold mb-4">Вика</h2>
                 <p className="text-lg text-muted-foreground mb-6">
-                  Дизайнер и творческий писатель с 8-летним опытом в создании визуальных историй. 
-                  Исследую пересечение искусства, технологий и человеческого опыта.
+                  ИМЯ-Вика. МЕСТОИМЕНИЯ-она её. ВОЗРАСТ-10лет. ФД-роблокс, валорант, пони таун.
                 </p>
                 <div className="flex gap-4 justify-center md:justify-start">
                   <Badge variant="secondary" className="px-4 py-2 text-sm">
@@ -138,7 +137,7 @@ export default function Index() {
 
       <section className="py-12 bg-secondary/30">
         <div className="container mx-auto px-4">
-          <div className="flex flex-wrap gap-3 justify-center mb-8">
+          <div className="flex flex-wrap gap-3 justify-center">
             {categories.map((category) => (
               <Button
                 key={category}
@@ -149,9 +148,6 @@ export default function Index() {
                 {category}
               </Button>
             ))}
-          </div>
-          <div className="text-center text-lg font-medium text-foreground">
-            ИМЯ-Вика. МЕСТОИМЕНИЯ-она её. ВОЗРАСТ-10лет. ФД-роблокс, валорант, пони таун
           </div>
         </div>
       </section>
