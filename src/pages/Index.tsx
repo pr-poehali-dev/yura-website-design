@@ -19,10 +19,10 @@ interface Article {
 const articles: Article[] = [
   {
     id: 1,
-    title: 'Искусство минимализма в современном дизайне',
-    excerpt: 'Как создавать выразительные композиции через простоту форм и акцент на пустом пространстве',
-    category: 'Дизайн',
-    tags: ['минимализм', 'тренды', 'композиция'],
+    title: 'Путь к творчеству: как я стала дизайнером',
+    excerpt: 'История моего становления от студентки архитектуры до креативного директора',
+    category: 'Биография',
+    tags: ['путь', 'вдохновение', 'становление'],
     date: '12 ноября 2024',
     image: 'https://cdn.poehali.dev/projects/486dbe88-06e6-4c2c-9dc3-882627b94536/files/245b6705-1e85-4f6e-bdf8-500f006e8468.jpg',
     readTime: '8 мин',
@@ -74,7 +74,7 @@ const articles: Article[] = [
   }
 ];
 
-const categories = ['Все', 'Дизайн', 'Психология', 'Типографика', 'Интерфейсы', 'Композиция'];
+const categories = ['Все', 'Биография', 'Психология', 'Типографика', 'Интерфейсы', 'Композиция'];
 
 export default function Index() {
   const [selectedCategory, setSelectedCategory] = useState('Все');
