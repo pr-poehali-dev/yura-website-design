@@ -152,6 +152,14 @@ export default function Index() {
         </div>
       </section>
 
+      {selectedCategory === 'Биография' && (
+        <div className="container mx-auto px-4 py-8">
+          <div className="text-center text-lg font-medium text-foreground">
+            ИМЯ-Вика. МЕСТОИМЕНИЯ-она её. ВОЗРАСТ-10лет. ФД-роблокс, валорант, пони таун
+          </div>
+        </div>
+      )}
+
       <main className="container mx-auto px-4 py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 auto-rows-[280px]">
           {filteredArticles.map((article, index) => {
